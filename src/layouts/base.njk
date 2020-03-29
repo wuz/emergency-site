@@ -19,6 +19,7 @@
 
         {% if build.env === 'production' %}
         <script src="{{ '/static/scripts/offline.js' | url }}" async defer></script>
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         {% endif %}
     </body>
 </html>
